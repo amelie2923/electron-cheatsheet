@@ -20,7 +20,11 @@ Cependant : si l'application que l'on souhaite développer se base sur les API d
 
 **Les -**<br>
 -Une app = un navigateur. Consommation en RAM et en CPU sera au moins égale à celle du navigateur sous-jacent. Pas gênant pour une seule app mais peut être problématique si plusieurs apps multi-plateformes tournent en même temps<br>
--Code source visible
+-Code source visible<br>
+
+**Dépendances nécessaires :**<br>
+-NodeJS<br>
+-Git<br>
 
 **Etapes :**
 
