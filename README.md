@@ -1,26 +1,25 @@
 # Electron
 
 Ce que permet cette techno : framework Javascript (Nodejs) opensource qui permet créer des applications de bureau natives multi-plateformes avec les technologies web comme JS/HTML et CSS. Il est basé sur Node.js et Chromium (la base libre de plusieurs navigateurs web, dont Google Chrome).
-Le but : créer des applications de bureau pour Windows, MacOS et d'autres plateformes en utilisant une seule base de code.
+Grâce à ce framework, il est facile de créer des applications de bureau pour Windows, MacOS et d'autres plateformes en utilisant une seule base de code.
 
 **Comment ça fonctionne ?**
 
-Electron permet de construire des applications multi-plateformes en empaquetant des fichiers de code prévus pour un site web et en les transformant en un fichier exécutable comme un programme Desktop classique.
+Electron permet de construire des applications multi-plateformes en empaquetant des fichiers de code prévus pour un site web et en les transformant en un fichier exécutable comme un programme Desktop classique.<br>
 Le but : éviter d’avoir à maintenir en parallèle plusieurs projets de développement dans le cas d’une application multi-plateforme.
 Electron donne accès au système de fichier, à toutes les API web de Chromium ainsi que celles du système d'exploitation.
 Cependant : si l'application que l'on souhaite développer se base sur les API d'un système en particulier, elle ne fonctionnera pas sur les autres.
 
-**Les +**
--Simple à prendre en main
--Un seul code à maintenir pour une seule application de bureau compatible avec les principaux systèmes d'exploitation
--Maintenance plus facile
--Coûts de développement réduits
--Gestion des mises à jour automatique
--Compatible avec Windows App Store et Mac App Store
+**Les +**<br>
+-Simple à prendre en main<br>
+-Un seul code à maintenir pour une seule application de bureau compatible avec les principaux systèmes d'exploitation<br>
+-Maintenance plus facile<br>
+-Coûts de développement réduits<br>
+-Gestion des mises à jour automatique<br>
+-Compatible avec Windows App Store et Mac App Store<br>
 
-**Les -**
-
--Une app = un navigateur. Consommation en RAM et en CPU sera au moins égale à celle du navigateur sous-jacent. Pas gênant pour une seule app mais peut être problématique si plusieurs apps multi-plateformes tournent en même temps
+**Les -**<br>
+-Une app = un navigateur. Consommation en RAM et en CPU sera au moins égale à celle du navigateur sous-jacent. Pas gênant pour une seule app mais peut être problématique si plusieurs apps multi-plateformes tournent en même temps<br>
 -Code source visible
 
 **Etapes :**
@@ -31,15 +30,16 @@ Cependant : si l'application que l'on souhaite développer se base sur les API d
 node -v
 
 **Cette commande devrait afficher la version de npm**
-npm -v
+
+**npm -v**
 
 2. Créer un nouveau dossier pour l'appli Electron et lancer npm init depuis ce dossier
 
-npm init
+**npm init**
 
 3. Installer eletron en tant que dépendance de développement dans l'application
 
-npm install --save-dev electron
+**npm install --save-dev electron**
 
 Cela permet de travailler sur de multiples applications avec des versions différentes d'Electron.
 
@@ -47,7 +47,7 @@ Cela permet de travailler sur de multiples applications avec des versions diffé
 
 5. Lancer l'appli avec npm start
 
-npm start
+**npm start**
 
 Il est possible également de démarrer avec l'application QuickStart d'Electron en suivant ces étapes :
 
@@ -57,15 +57,15 @@ https://github.com/electron/electron-quick-start
 
 2. Se rendre dans le dossier source
 
-cd electron-quick-start
+**cd electron-quick-start**
 
 3. Installer les dépendances
 
-npm install
+**npm install**
 
 4. Lancer l'application
 
-npm start
+**npm start**
 
 
 
