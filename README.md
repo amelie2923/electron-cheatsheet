@@ -1,4 +1,4 @@
-**Electron**
+#Electron
 
 Ce que permet cette techno : framework Javascript (Nodejs) opensource qui permet créer des applications de bureau natives multi-plateformes avec les technologies web comme JS/HTML et CSS. Il est basé sur Node.js et Chromium (la base libre de plusieurs navigateurs web, dont Google Chrome).
 Le but : créer des applications de bureau pour Windows, MacOS et d'autres plateformes en utilisant une seule base de code.
@@ -27,10 +27,10 @@ Cependant : si l'application que l'on souhaite développer se base sur les API d
 
 1. Vérifier les versions de node et npm
 
-# Cette commande devrait afficher la version de Node.js
+**Cette commande devrait afficher la version de Node.js**
 node -v
 
-# Cette commande devrait afficher la version de npm
+**Cette commande devrait afficher la version de npm**
 npm -v
 
 2. Créer un nouveau dossier pour l'appli Electron et lancer npm init depuis ce dossier
