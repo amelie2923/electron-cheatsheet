@@ -1,4 +1,4 @@
-#Electron
+# Electron
 
 Ce que permet cette techno : framework Javascript (Nodejs) opensource qui permet créer des applications de bureau natives multi-plateformes avec les technologies web comme JS/HTML et CSS. Il est basé sur Node.js et Chromium (la base libre de plusieurs navigateurs web, dont Google Chrome).
 Le but : créer des applications de bureau pour Windows, MacOS et d'autres plateformes en utilisant une seule base de code.
